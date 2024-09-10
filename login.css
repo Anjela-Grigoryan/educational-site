@@ -1,0 +1,98 @@
+/* .adminContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adminForm {
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(34,181,195,1);
+    justify-content: center;
+    padding: 10px;
+}
+
+.adminForm .adminInput {
+    height: 10%;
+    border: 1px solid rgba(34, 182, 195, 0.922);
+}
+
+.adminForm button {
+    height: 12%;
+    background-color: white;
+    border: 2px solid rgba(34, 182, 195, 0.922);
+} 
+
+.adminForm button:hover {
+    cursor: pointer;
+} */
+
+.loginDiv {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginDiv .card {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(34,181,195,1);
+}
+
+.loginDiv .card-body{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.loginDiv .card-body .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    width: 90%;
+}
+
+.loginDiv .card-body .form input {
+    border: 1px solid rgba(34,181,195,1);
+    height: 20%;
+}
+
+.loginDiv .card-body .form button {
+    height: 25%;
+    background-color: white;
+    border: 2px solid rgba(34,181,195,1);
+}
+
+.adminform {
+    height: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.adminform button {
+    height: 60%;
+    width: 40%;
+    background-color: white;
+    border: 2px solid rgba(34,181,195,1);
+}
+
+.adminform button, .loginDiv .card-body .form button:hover {
+    cursor: pointer;
+}

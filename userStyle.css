@@ -1,0 +1,359 @@
+
+
+.adminmenu{
+    background: linear-gradient(0deg, rgba(34,181,195,1) 4%, rgba(108,253,45,1) 72%);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.adminMenu{
+    justify-content: space-between;
+    background-color: white;
+    width: 99.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 93%;
+}
+
+.adminMenu a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(7 81 88);
+}
+
+.reglogad {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnbtn{
+    background: linear-gradient(0deg, rgba(34,181,195,1) 4%, rgba(108,253,45,1) 72%);
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.btnbtn button {
+    width: 93.5%;
+    height: 84%;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    color: black;
+}
+
+.btnbtn button:hover {
+    cursor: pointer;
+}
+
+.allProducts {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-template-rows: auto auto auto;
+    column-gap: 35px;
+    row-gap: 62px;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.product { 
+    padding-bottom: 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(34,181,195,1);
+    width: 300px;
+    justify-content: space-around;
+    position: relative;
+}
+
+.forInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+.sale {
+    width: 100px;
+    height: 100px;
+    background-color: #af0707e3;
+    border-radius: 50px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale p {
+    font-size: 24px;
+    color: white;
+}
+
+.pimgp {
+    width: 90%;
+    height: 60%;
+}
+
+.pimgp img {
+    width: 100%;
+    height: 100%;
+}
+
+.pricees{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-evenly;
+}
+
+.actionsplus, .actionsminus {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    
+}
+
+.actionsminus input, .actionsplus input{
+    background-color: white;
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    border: 2px solid rgba(34, 181, 195, 1);
+}
+
+.pcount {
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid rgba(34, 181, 195, 1);
+    font-size: 35px;
+    color: rgba(34, 181, 195, 1);
+    text-align: center;
+    outline: none;
+}
+
+.pcount:focus{
+    outline: rgba(34, 181, 195, 1);
+    border-color: rgba(34, 181, 195, 1);
+}
+
+
+.pppcs, .pppkg {
+    /* display: none; */
+    display: flex;
+}
+
+.icons{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
+
+.counts {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count2 {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    height: 55px;
+}
+
+.inputsm, .inputsp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.inppm{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid rgba(34, 181, 195, 1);
+    font-size: 13px;
+}
+
+.inpmp {
+    margin-top: 13px;
+}
+
+.inppm:hover{
+    cursor: pointer;
+}
+
+.pcsdiv, .kgdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40%;
+}
+
+.count {
+    width: 50%;
+    height: 50px;
+    border: 2px solid rgba(34, 181, 195, 1);
+    font-size: 30px;
+    text-align: center;
+    color: rgba(34, 181, 195, 1);
+}
+
+.count:focus{
+    outline: rgba(34, 181, 195, 1);
+}
+
+/* -----------------------------------user page----------------------------------- */
+
+.userPageInfo {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.userPageInfo img {
+    width: 45px;
+    height: 45px;
+}
+
+.inps {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inps i:hover{
+    cursor: pointer;
+}
+
+.icns {
+    justify-content: space-between;
+    display: flex;
+    width: 50%;
+}
+
+.icns button {
+    border: 0;
+    background-color: white;
+}
+
+/* --------------------modal 2------------------ */
+
+.modal-body div{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------change ------------------ */
+
+.adChangeContainerBody{
+    display: flex;
+    justify-content: center;
+}
+
+.adChangeContainer {
+    display: flex;
+    border: 2px solid rgba(34, 181, 195, 1);
+    width: 50%;
+    height: 160px;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.for_product_changes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inpdiv {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.inpdiv input, .inpsalediv .saleInput {
+    width: 85%;
+    height: 30px;
+    border: 1px solid rgba(34, 181, 195, 1);
+    border-radius: 4px;
+}
+
+.inpsalediv .saleInput {
+    display: none;
+}
+
+.for_product_changes input:focus {
+    outline: rgba(34, 181, 195, 1);
+}
+
+.inpsalediv {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.rradiosale {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.rSale {
+    width: 22px;
+    height: 22px;
+}
+
+
+.modalBody {
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.heart:hover {
+    cursor: pointer;
+}

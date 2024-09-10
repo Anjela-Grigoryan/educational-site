@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient{
+    width: 60%;
+    height: 50%;
+    background: linear-gradient(0deg, rgba(34,181,195,1) 4%, rgba(108,253,45,1) 72%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alcontainer{
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    height: 97%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+.alcontainer .loginInput {
+    border: 2px solid rgba(108,253,45,1);
+    height: 40px;
+    width: 95%;
+}
+
+.send {
+    background-color: white;
+    border: 2px solid rgba(108,253,45,1);
+    height: 35px;
+    width: 95%;
+}
+
+.send:hover{
+    cursor: pointer;
+}
+
